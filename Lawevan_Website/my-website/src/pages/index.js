@@ -8,8 +8,8 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Never Ever Miss it</>,
+    imageUrl: 'img/suspenders_front3.jpg',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -19,20 +19,19 @@ const features = [
   },
   {
     title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/font1.jpg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Special gift for you. We should also pleasure ourself
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <> Making Yourself Different </>,
+    imageUrl: 'img/glove_font2.jpg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
+        Make Yourself Look Completely Different and Beautiful. Docusaurus can
         be extended while reusing the same header and footer.
       </>
     ),
@@ -59,8 +58,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Lawevan Studio ${siteConfig.title}`}
+      description="Reject Mediocrity and Fight for Greatness <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

@@ -8,19 +8,24 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'About US',
+      title: 'Lawevan',
       logo: {
-        alt: 'My Site Logo', //lawevan logo
+        alt: 'Lawevan', //lawevan logo
         src: 'img/logo.svg',//Lawevan logo
       },
       links: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
+          label: '_Studio',
+          position: 'Left',
+        },        
+        {to: 'docs/Mens', activeBasePath: 'docs', label: 'Mens',position: 'left'},
+        {to: 'docs/WOMENS', label: 'WOMENS', activeBasePath: 'docs',position: 'left'},
+        {to: 'docs/GLOVE', label: 'GLOVE', activeBasePath: 'docs',position: 'left'},
+        {to: 'docs/SUSPENDERS', label: 'SUSPENDERS', activeBasePath: 'docs',position: 'left'},
+        {to: 'docs/holiday_gift', label: 'Holiday_Gift', activeBasePath: 'docs',position: 'left'},
+        {to: 'blog', label: 'New_Arrivals', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
