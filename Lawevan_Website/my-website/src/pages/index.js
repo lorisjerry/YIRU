@@ -22,7 +22,7 @@ const features = [
     imageUrl: 'img/font1.jpg',
     description: (
       <>
-        Special gift for you. <code>docs</code> directory.
+        Special gift for you. We should also pleasure ourself
       </>
     ),
   },
@@ -58,8 +58,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Lawevan Studio ${siteConfig.title}`}
+      description="Reject Mediocrity and Fight for Greatness <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
