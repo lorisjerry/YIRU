@@ -6,11 +6,12 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+
 const features = [
   {
     title: <>Lawevan MEN</>,
-    face:"charlemagne std",
-    color:"gold",
+    face:"Stencil Std",
+    color:"black",
     imageUrl: 'img/suspenders_front3.jpg',
     pageurl:"docs/Mens",
     description: (
@@ -22,8 +23,8 @@ const features = [
   },
   {
     title: <>Lawevan Women</>,
-    face:"american typewriter",
-    color:"pink",
+    face:"Apple Chancery",
+    color:"black",
     imageUrl: 'img/font1.jpg',
     pageurl:"docs/WOMENS",
     description: (
@@ -34,8 +35,8 @@ const features = [
   },
   {
     title: <>Lawevan Kids</>,
-    face:"chalkboard SE",
-    color:"green",
+    face:"Bradley Hand",
+    color:"black",
     imageUrl: 'img/font1.jpg',
     pageurl:"docs/Kids",
     description: (
@@ -46,8 +47,8 @@ const features = [
   },
   {
     title: <>Lawevan Baby</>,
-    face:"Bernard MT Condensed",
-    color:"red",
+    face:"Chalkduster",
+    color:"black",
     imageUrl: 'img/font1.jpg',
     pageurl:"docs/Baby",
     description: (
@@ -58,20 +59,20 @@ const features = [
   },
   {
     title: <>Lawevan Weddings</>,
-    face:"lingwai sc",
+    face:"Bradley Hand",
     color:"black",
     imageUrl: 'img/font1.jpg',
     pageurl:"docs/Weddings",
     description: (
       <>
-        Special gift for you. We should also pleasure ourself
+        {/* Special gift for you. We should also pleasure ourself */}
       </>
     ),
   },
   {
     title: <> Lawevan Home </>,
     face:"Chalkduster",
-    color:"blue",
+    color:"black",
     imageUrl: 'img/glove_font2.jpg',
     pageurl:"docs/Home",
     description: (
@@ -110,15 +111,18 @@ function Home() {
       description="Reject Mediocrity and Fight for Greatness <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <iframe class="index-hero-video" width="560" height="315" src="../img/suspenders.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <h1><font face= 'Cambria'>{siteConfig.title}</font></h1>
+          <img alt="Docusaurus with Keytar" class="index-logo" src="/img/logo.png"></img>
+          {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
           <div className={styles.buttons}>
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/doc1')}>
+              to={useBaseUrl('docs/Mens')}>
               Get Started
             </Link>
             <Link

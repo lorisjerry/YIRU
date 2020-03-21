@@ -17,15 +17,15 @@ module.exports = {
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
-          label: '_Studio',
-          position: 'Left',
+          label: 'Studio',
+          position:'right'
         },        
-        {to: 'docs/Mens', activeBasePath: 'docs', label: 'Mens',position: 'left'},
-        {to: 'docs/WOMENS', label: 'WOMENS', activeBasePath: 'docs',position: 'left'},
-        {to: 'docs/GLOVE', label: 'GLOVE', activeBasePath: 'docs',position: 'left'},
-        {to: 'docs/SUSPENDERS', label: 'SUSPENDERS', activeBasePath: 'docs',position: 'left'},
-        {to: 'docs/holiday_gift', label: 'Holiday_Gift', activeBasePath: 'docs',position: 'left'},
-        {to: 'blog', label: 'New_Arrivals', position: 'left'},
+        {to: 'docs/Mens', activeBasePath: 'docs', label: 'Mens',position: 'right'},
+        {to: 'docs/WOMENS', label: 'WOMENS', activeBasePath: 'docs',position: 'right'},
+        {to: 'docs/GLOVE', label: 'GLOVE', activeBasePath: 'docs',position: 'right'},
+        {to: 'docs/SUSPENDERS', label: 'SUSPENDERS', activeBasePath: 'docs',position: 'right'},
+        {to: 'docs/holiday_gift', label: 'Holiday_Gift', activeBasePath: 'docs',position: 'right'},
+        {to: 'blog', label: 'New_Arrivals', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

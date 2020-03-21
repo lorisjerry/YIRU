@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #b6bbba8a;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
@@ -15,6 +15,30 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+}
+
+.index-hero-video {text-rendering: optimizeLegibility;
+-webkit-box-direction: normal;
+color: #fff;
+border: 0;
+font: inherit;
+font-size: 100%;
+margin: 0;
+vertical-align: baseline;
+border-style: none;
+box-sizing: content-box;
+max-width: 100%;
+animation-duration: 2s;
+animation-name: jackInTheBox;
+float: left;
+margin-top: 20px;
+padding: 20px 0 20px 20px;}
+
+.index-logo {
+  padding: 1 rem 0;
+  text-align: center;
+  /* position: relative; */
+  overflow: hidden;
 }
 
 .docusaurus-highlight-code-line {
