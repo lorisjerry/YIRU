@@ -11,21 +11,18 @@ module.exports = {
       title: 'Lawevan',
       logo: {
         alt: 'Lawevan', //lawevan logo
-        src: 'img/logo.svg',//Lawevan logo
+        src: 'img/logo_L.svg',//Lawevan logo
       },
       links: [
-        {
-          to: 'docs/doc1',
-          activeBasePath: 'docs',
-          label: 'Studio',
-          position:'right'
-        },        
-        {to: 'docs/Mens', activeBasePath: 'docs', label: 'Mens',position: 'right'},
-        {to: 'docs/WOMENS', label: 'WOMENS', activeBasePath: 'docs',position: 'right'},
-        {to: 'docs/GLOVE', label: 'GLOVE', activeBasePath: 'docs',position: 'right'},
-        {to: 'docs/SUSPENDERS', label: 'SUSPENDERS', activeBasePath: 'docs',position: 'right'},
-        {to: 'docs/holiday_gift', label: 'Holiday_Gift', activeBasePath: 'docs',position: 'right'},
-        {to: 'blog', label: 'New_Arrivals', position: 'right'},
+        {to: 'blog', label: 'New_Arrivals', position: 'right'},       
+        {to: 'docs/Mens', activeBasePath: 'docs', label: 'Men',position: 'right'},
+        {to: 'docs/WOMENS', label: 'Women', activeBasePath: 'docs',position: 'right'},
+        {to: 'docs/', label: 'Kids', activeBasePath: 'docs',position: 'right'},
+        {to: 'docs/Baby', label: 'Baby', activeBasePath: 'docs',position: 'right'},
+        {to: 'docs/Weddings', label: 'Weddings', activeBasePath: 'docs',position: 'right'},
+        {to: 'docs/Home',activeBasePath: 'docs',label: 'Home',position:'right'}, 
+        {to: 'docs/doc1',activeBasePath: 'docs',label: 'About_us',position:'right'}, 
+        
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

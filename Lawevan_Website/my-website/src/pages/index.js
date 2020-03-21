@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Lawevan MEN</>,
+    title: <>Lawevan Men</>,
     face:"Stencil Std",
     color:"black",
     imageUrl: 'img/suspenders_front3.jpg',
@@ -35,7 +35,7 @@ const features = [
   },
   {
     title: <>Lawevan Kids</>,
-    face:"Bradley Hand",
+    face:"Copperplate",
     color:"black",
     imageUrl: 'img/font1.jpg',
     pageurl:"docs/Kids",
@@ -111,10 +111,9 @@ function Home() {
       description="Reject Mediocrity and Fight for Greatness <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <iframe class="index-hero-video" width="560" height="315" src="../img/suspenders.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-          <h1><font face= 'Cambria'>{siteConfig.title}</font></h1>
-          <img alt="Docusaurus with Keytar" class="index-logo" src="/img/logo.png"></img>
+        <img alt="Docusaurus with Keytar" class="index-hero-logo" src="/img/logo4.png"></img>
+        <h1><font face= 'Cambria'></font></h1>
+        <iframe class="index-hero-video" width="700" height="394" src="../img/suspenders.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
           <div className={styles.buttons}>
             <Link

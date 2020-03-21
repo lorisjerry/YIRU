@@ -17,6 +17,17 @@
   --ifm-code-font-size: 95%;
 }
 
+/* .index-hero-logo {text-rendering: optimizeLegibility;
+  -webkit-box-direction: normal;
+  border: 0;
+  max-width: 100%;
+  animation-duration: 2s;
+  animation-name: jackInTheBox;
+  float: right;
+  margin-top: 20px;
+  padding: 80px 0 20px 20px;} */
+
+
 .index-hero-video {text-rendering: optimizeLegibility;
 -webkit-box-direction: normal;
 color: #fff;
@@ -25,21 +36,14 @@ font: inherit;
 font-size: 100%;
 margin: 0;
 vertical-align: baseline;
-border-style: none;
+border-style: 4;
 box-sizing: content-box;
 max-width: 100%;
 animation-duration: 2s;
 animation-name: jackInTheBox;
-float: left;
+float: center;
 margin-top: 20px;
-padding: 20px 0 20px 20px;}
-
-.index-logo {
-  padding: 1 rem 0;
-  text-align: center;
-  /* position: relative; */
-  overflow: hidden;
-}
+padding: 0px 10 0px 0px;}
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
