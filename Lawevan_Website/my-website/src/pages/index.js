@@ -12,7 +12,7 @@ const features = [
     title: <>Lawevan Men</>,
     face:"Stencil Std",
     color:"black",
-    imageUrl: 'img/suspenders_front3.jpg',
+    imageUrl: 'img/Mens.png',
     pageurl:"docs/Mens",
     description: (
       <>
@@ -37,7 +37,7 @@ const features = [
     title: <>Lawevan Kids</>,
     face:"Copperplate",
     color:"black",
-    imageUrl: 'img/font1.jpg',
+    imageUrl: 'img/kids.png',
     pageurl:"docs/Kids",
     description: (
       <>
@@ -49,7 +49,7 @@ const features = [
     title: <>Lawevan Baby</>,
     face:"Chalkduster",
     color:"black",
-    imageUrl: 'img/font1.jpg',
+    imageUrl: 'img/baby.jpg',
     pageurl:"docs/Baby",
     description: (
       <>
@@ -61,7 +61,7 @@ const features = [
     title: <>Lawevan Weddings</>,
     face:"Bradley Hand",
     color:"black",
-    imageUrl: 'img/font1.jpg',
+    imageUrl: 'img/weddings.jpg',
     pageurl:"docs/Weddings",
     description: (
       <>
@@ -73,7 +73,7 @@ const features = [
     title: <> Lawevan Home </>,
     face:"Chalkduster",
     color:"black",
-    imageUrl: 'img/glove_font2.jpg',
+    imageUrl: 'img/home.jpg',
     pageurl:"docs/Home",
     description: (
       <>
