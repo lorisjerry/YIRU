@@ -1,5 +1,11 @@
 # YIRU
  Lawevan Brand Website
+ 
+ 注意点:
+ 1 paypal给的button中的input标签有误,
+ 原标签为<input type="hidden" name="option_select0" value="L">
+ 改成 <input type="hidden" name="option_select0" value="L"/>
+ paypal 没有添加 "/"
 
 <font face= 'Arial' >Lawevan 0 Arial</font>
 
