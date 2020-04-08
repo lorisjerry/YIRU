@@ -24,10 +24,10 @@ PAYAL NOW
 <input type="hidden" name="add" value="1"/>
 <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted"/>
 <table>
-<tr><td><input type="hidden" name="on0" value="Size"/>Size</td></tr><tr><td><select name="os0" onchange="document.getElementById('myimg').src=this.value;document.getElementById('myimg').style.display='block'">
- <option value="http://img.baidu.com/img/iknow/avarta/110/r6s1g1.gif">L $24.99 USD</option>
- <option value="http://img.baidu.com/img/iknow/avarta/110/r6s1g2.gif">M $24.99 USD</option>
- <option value="http://img.baidu.com/img/iknow/avarta/110/r6s1g3.gif">S $24.99 USD</option>
+<tr><td><input type="hidden" name="on0" value="Size"/>Size</td></tr><tr><td><select name="os0">
+ <option value="L">L $24.99 USD</option>
+ <option value="M">M $24.99 USD</option>
+ <option value="S">S $24.99 USD</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="option_select0" value="L"/>
@@ -40,6 +40,8 @@ PAYAL NOW
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
 < img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
 </form>
+
+
 
 
 [![png](../img/suspenders/94-1.png)](../img/suspenders.mp4)
